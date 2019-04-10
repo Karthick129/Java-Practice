@@ -157,7 +157,7 @@ public class Demoqa {
 
 		Sheet s1 = w1.getSheet("Data");
 
-		Row r1 = s1.createRow(2);
+		Row r1 = s1.getRow(1);
 
 		Cell c1 = r1.createCell(9);
 				
